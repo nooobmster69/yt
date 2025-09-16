@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Audiobook Script Generator 14 Sep 2025",
+  "description": "An AI-powered suite for generating long-form YouTube scripts and visuals. Features dual workflows (Chapter-Driven & Extended), multiple script styles, and creative controls. Includes AI thumbnail concepts, an interactive thumbnail builder, and a vast image style library with in-app generation. Post-production tools provide automatic YouTube chapters, an AI-generated editing timeline, and SSML. Manage projects with save/load, presets, and export to Word or HTML.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

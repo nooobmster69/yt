@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Audiobook Script Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        font-size: 17px;
+      }
+      :root {
+        --grid-line-color: rgba(0, 0, 0, 0.05);
+      }
+      html.dark {
+        --grid-line-color: rgba(255, 255, 255, 0.05);
+      }
+      .bg-grid-pattern {
+        background-image: linear-gradient(var(--grid-line-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line-color) 1px, transparent 1px);
+        background-size: 2rem 2rem;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "@google/genai": "https://esm.sh/@google/genai@1.0.0",
+    "docx": "https://esm.sh/docx@8.5.0",
+    "file-saver": "https://esm.sh/file-saver@2.0.5",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="h-full bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-gray-200 font-sans">
+    <div id="root" class="h-full"></div>
+    <div id="tooltip-root"></div>
+    <script type="module" src="/index.tsx" defer></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
