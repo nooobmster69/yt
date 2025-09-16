@@ -1,8 +1,9 @@
 {
-  "name": "youtube-audiobook-script-generator-14-sep-2025",
+  "name": "youtube-audiobook-script-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://yourusername.github.io/youtube-audiobook-script-generator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
